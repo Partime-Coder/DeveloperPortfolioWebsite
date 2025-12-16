@@ -11,6 +11,7 @@ import Contact from './Pages/Contact.jsx'
 
 
 const router = createBrowserRouter([
+  
   {
     path:'/',
     element:<Home />
@@ -35,6 +36,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<RouterProvider router={router} />
+ <BrowserRouter basename="/DeveloperPortfolioWebsite">
+      <RouterProvider router={router} />
+    </BrowserRouter>
   </StrictMode>,
 )
