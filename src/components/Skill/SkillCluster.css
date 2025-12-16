@@ -1,0 +1,249 @@
+
+
+.Node {
+    transform-origin: center center;
+cursor: pointer;
+}
+
+
+
+.HTMLNode {
+    transform: rotate(0deg) translateY(-9rem) rotate(0deg);
+}
+
+.CSSNode {
+    transform: rotate(60deg) translateY(-9rem) rotate(-60deg);
+
+}
+
+.TailwindNode {
+    transform: rotate(60deg) translateY(-5rem) rotate(-60deg);
+}
+
+
+.GitNode {
+    transform: rotate(120deg) translateY(-9rem) rotate(-120deg);
+}
+
+.GithubNode {
+    transform: rotate(120deg) translateY(-5rem) rotate(-120deg);
+}
+
+.JSNode {
+    transform: rotate(180deg) translateY(-9rem) rotate(-180deg);
+}
+
+.ReactNode {
+    transform: rotate(240deg) translateY(-9rem) rotate(-240deg);
+}
+
+.RouterNode {
+    transform: rotate(280deg) translateY(-5rem) rotate(-280deg);
+}
+
+.ReduxNode {
+    transform: rotate(200deg) translateY(-5rem) rotate(-200deg);
+}
+
+.APINode {
+    transform: rotate(300deg) translateY(-9rem) rotate(-300deg);
+}
+
+
+.line {
+    position: absolute;
+    width: 2rem;
+    top: 50%;
+    left: 50%;
+    transform-origin: center left;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.Nodeline {
+    position: absolute;
+    width: 1rem;
+    top: 50%;
+    left: 50%;
+    transform-origin: center left;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.HtmlLine {
+    transform: rotate(-90deg) translateX(5rem);
+}
+
+.CSSLine {
+    transform: rotate(-30deg) translateX(5rem);
+}
+
+.TailwindLine {
+    transform: rotate(-30deg) translateX(2rem);
+}
+
+.GitLine {
+    transform: rotate(30deg) translateX(5rem);
+}
+
+.GithubLine {
+    transform: rotate(30deg) translateX(2rem);
+}
+
+.JSLine {
+    transform: rotate(90deg) translateX(5rem);
+}
+
+.ReactLine {
+    transform: rotate(150deg) translateX(5rem);
+}
+
+.RouterLine {
+    transform: rotate(190deg) translateX(2rem);
+}
+
+.ReduxLine {
+    transform: rotate(110deg) translateX(2rem);
+}
+
+.APILine {
+    transform: rotate(210deg) translateX(5rem);
+}
+
+
+
+.rotating-wrapper {
+
+    animation: spin 100s linear infinite;
+}
+
+.title-rotate {
+
+    animation: spin 100s linear infinite reverse;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 640px) {
+    .HTMLNode {
+        transform: rotate(0deg) translateY(-8rem) rotate(0deg);
+    }
+
+    .CSSNode {
+        transform: rotate(60deg) translateY(-8rem) rotate(-60deg);
+
+    }
+
+    .TailwindNode {
+        transform: rotate(60deg) translateY(-5rem) rotate(-60deg);
+    }
+
+
+    .GitNode {
+        transform: rotate(120deg) translateY(-8rem) rotate(-120deg);
+    }
+
+    .GithubNode {
+        transform: rotate(120deg) translateY(-5rem) rotate(-120deg);
+    }
+
+    .JSNode {
+        transform: rotate(180deg) translateY(-8rem) rotate(-180deg);
+    }
+
+    .ReactNode {
+        transform: rotate(240deg) translateY(-8rem) rotate(-240deg);
+    }
+
+    .RouterNode {
+        transform: rotate(280deg) translateY(-5rem) rotate(-280deg);
+    }
+
+    .ReduxNode {
+        transform: rotate(200deg) translateY(-5rem) rotate(-200deg);
+    }
+
+    .APINode {
+        transform: rotate(300deg) translateY(-8rem) rotate(-300deg);
+    }
+
+
+    .line {
+        position: absolute;
+        width: 2rem;
+        top: 50%;
+        left: 50%;
+        transform-origin: center left;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .Bigline {
+        position: absolute;
+        width: 3rem;
+        top: 50%;
+        left: 50%;
+        transform-origin: center left;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .Nodeline {
+        position: absolute;
+        width: 1rem;
+        top: 50%;
+        left: 50%;
+        transform-origin: center left;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .HtmlLine {
+        transform: rotate(-90deg) translateX(4rem);
+    }
+
+    .CSSLine {
+        transform: rotate(-30deg) translateX(4rem);
+    }
+
+    .TailwindLine {
+        transform: rotate(-30deg) translateX(2rem);
+    }
+
+    .GitLine {
+        transform: rotate(30deg) translateX(4rem);
+    }
+
+    .GithubLine {
+        transform: rotate(30deg) translateX(2rem);
+    }
+
+    .JSLine {
+        transform: rotate(90deg) translateX(4rem);
+    }
+
+    .ReactLine {
+        transform: rotate(150deg) translateX(4rem);
+    }
+
+    .RouterLine {
+        transform: rotate(190deg) translateX(2rem);
+    }
+
+    .ReduxLine {
+        transform: rotate(110deg) translateX(2rem);
+    }
+
+    .APILine {
+        transform: rotate(210deg) translateX(4rem);
+    }
+
+}
