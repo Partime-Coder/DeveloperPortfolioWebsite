@@ -33,7 +33,7 @@ export const projects = [
       TECH.REACT,
       TECH.ROUTER
     ],
-    github: "",
+    github: "https://github.com/Partime-Coder/DeveloperPortfolioWebsite",
     live: ""
   },
   {
@@ -47,8 +47,8 @@ export const projects = [
       TECH.HTML,
       TECH.CSS,
     ],
-    github: "https://github.com/Partime-Coder/Weather-Site",
-    live: "https://partime-coder.github.io/Weather-Site/"
+    github: "https://github.com/Partime-Coder/IPhone-Website",
+    live: "https://partime-coder.github.io/IPhone-Website/"
   },
   {
     id: 2,
@@ -80,8 +80,8 @@ export const projects = [
       TECH.TAILWIND,
       TECH.REACT,
     ],
-    github: "https://github.com/Partime-Coder/Weather-Site",
-    live: "https://partime-coder.github.io/Weather-Site/"
+    github: "",
+    live: ""
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
       TECH.ROUTER,
       TECH.REDUX,
     ],
-    github: "https://github.com/Partime-Coder/Weather-Site",
-    live: "https://partime-coder.github.io/Weather-Site/"
+    github: "",
+    live: ""
   }
 ]

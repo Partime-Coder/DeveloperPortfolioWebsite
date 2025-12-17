@@ -6,7 +6,7 @@ function SocialBar({ className = "", iconClass = "" }) {
   return (
     <div className={`flex gap-5 ${className}`}>
       <a
-        href="https://github.com/your-username"
+        href="https://github.com/Partime-Coder"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -14,7 +14,7 @@ function SocialBar({ className = "", iconClass = "" }) {
       </a>
 
       <a
-        href="https://linkedin.com/in/your-username"
+        href="https://www.linkedin.com/in/sujal-bhagat-9b2492391/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -25,11 +25,11 @@ function SocialBar({ className = "", iconClass = "" }) {
         <FaWhatsapp className={`cursor-pointer ${iconClass}`} />
       </a>
 
-      <a href="mailto:your@email.com">
+      <a href="mailto:sujalbhagat22@gmail.com">
         <MdEmail className={`cursor-pointer ${iconClass}`} />
       </a>
 
-      <a href="tel:+919999999999">
+      <a href="tel:+919370280335">
         <MdPhone className={`cursor-pointer ${iconClass}`} />
       </a>
     </div>
