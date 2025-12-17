@@ -13,7 +13,7 @@ import Contact from './Pages/Contact.jsx'
 const router = createBrowserRouter([
   
   {
-    path:'/',
+    path:'DeveloperPortfolioWebsite/',
     element:<Home />
   },
    {
