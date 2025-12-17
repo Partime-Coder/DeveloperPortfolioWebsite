@@ -10,29 +10,34 @@ import Project from './Pages/Project.jsx'
 import Contact from './Pages/Contact.jsx'
 
 
-const router = createBrowserRouter([
-  
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <Home />,
+    },
+    {
+      path: 'about',
+      element: <About />,
+    },
+    {
+      path: 'skills',
+      element: <Skill />,
+    },
+    {
+      path: 'projects',
+      element: <Project />,
+    },
+    {
+      path: 'contact',
+      element: <Contact />,
+    },
+  ],
   {
-    path:'DeveloperPortfolioWebsite/',
-    element:<Home />
-  },
-   {
-    path:'about',
-    element:<About />
-  },
-   {
-    path:'skills',
-    element:<Skill />
-  },
-   {
-    path:'projects',
-    element:<Project />
-  },
-   {
-    path:'contact',
-    element:<Contact />
-  },
-])
+    basename: '/DeveloperPortfolioWebsite',
+  }
+);
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
