@@ -25,7 +25,7 @@ function RightProjectPanal({ id, tech, repo, demo }) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`w-30 h-10 rounded-lg border border-gray-400 hover:bg-purple-900 flex justify-center items-center text-purple-300 transition
-    ${(id === 0 || id === 4) ? 'hidden' : ''}`}
+    ${(id === 0 ) ? 'hidden' : ''}`}
                 >
                     Live Demo
                 </a>

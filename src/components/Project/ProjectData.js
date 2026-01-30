@@ -9,11 +9,11 @@ import M1 from '../../assets/Project/M1.png'
 import P2 from '../../assets/Project/P2.png'
 import M2 from '../../assets/Project/M2.png'
 
-import P3 from '../../assets/Project/P3.png'
-import M3 from '../../assets/Project/M3.png'
+import P3 from '../../assets/Project/TodoP.png'
+import M3 from '../../assets/Project/TodoM.png'
 
-import P5 from '../../assets/Project/P5.png'
-// import M5 from '../../assets/Project/M5.png'
+import P5 from '../../assets/Project/BlogP.png'
+import M5 from '../../assets/Project/BlogM.png'
 
 
 
@@ -68,7 +68,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Simple Portfolio Website",
+    title: "Blog Website",
     description:
       "A simple and clean portfolio website created for a QA professional to showcase skills, experience, and tools. The site focuses on clarity, responsive layout, and easy content navigation, making it suitable for presenting QA profiles and work in a professional manner.",
     pcImage: P3,
@@ -79,9 +79,10 @@ export const projects = [
       TECH.JS,
       TECH.TAILWIND,
       TECH.REACT,
+      TECH.REDUX,
     ],
-    github: "",
-    live: ""
+    github: "https://github.com/Partime-Coder/Todo-App",
+    live: "https://todo-app-dun-ten-47.vercel.app/"
   },
   {
     id: 4,
@@ -89,7 +90,7 @@ export const projects = [
     description:
       "Currently working on a full-scale e-commerce web application focused on building a complete shopping experience, including product listings, cart management, and a smooth user interface. The project is designed to strengthen my understanding of application architecture, state management, and scalable frontend development practices.",
     pcImage: P5,
-    mobileImage: P5,
+    mobileImage: M5,
     tech: [
       TECH.HTML,
       TECH.CSS,
@@ -99,8 +100,9 @@ export const projects = [
       TECH.API,
       TECH.ROUTER,
       TECH.REDUX,
+      TECH.APPWRITE,
     ],
-    github: "",
-    live: ""
+    github: "https://github.com/Partime-Coder/AppwriteBlogWebsite",
+    live: "https://appwrite-blog-website-flax.vercel.app/"
   }
 ]

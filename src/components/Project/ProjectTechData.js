@@ -6,7 +6,8 @@ import {
   SiRedux,
   SiPostman,
   SiGit,
-  SiGithub
+  SiGithub,
+  SiAppwrite
 } from 'react-icons/si'
 import { BiServer } from 'react-icons/bi'
 
@@ -74,4 +75,10 @@ export const TECH = {
     icon: SiGithub,
     color: '#ffffff',
   },
+  APPWRITE: {
+    id: 'appwrite',
+    label: 'AppWrite',
+    icon: SiAppwrite,
+    color: '#FD366E',
+  }
 }
