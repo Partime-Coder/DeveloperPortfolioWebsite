@@ -68,9 +68,9 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Blog Website",
+    title: "Simple Todo Application",
     description:
-      "A simple and clean portfolio website created for a QA professional to showcase skills, experience, and tools. The site focuses on clarity, responsive layout, and easy content navigation, making it suitable for presenting QA profiles and work in a professional manner.",
+      "Developed a scalable Todo application using React and Redux Toolkit to strengthen understanding of centralized state management and predictable data flow. Designed a clean, responsive user interface with reusable components, focusing on maintainability and consistent user experience. Followed production-level practices such as structured folder organization, separation of concerns, and clean, readable code to ensure long-term scalability.",
     pcImage: P3,
     mobileImage: M3,
     tech: [
@@ -86,9 +86,9 @@ export const projects = [
   },
   {
     id: 4,
-    title: "E-Commerce Website(In Process)",
+    title: "Blog Application",
     description:
-      "Currently working on a full-scale e-commerce web application focused on building a complete shopping experience, including product listings, cart management, and a smooth user interface. The project is designed to strengthen my understanding of application architecture, state management, and scalable frontend development practices.",
+      "Architected a production-oriented blog application using React, Redux Toolkit, Tailwind CSS, and Appwrite, enabling users to create, publish, edit, and delete blog posts through a clean and responsive interface. Implemented secure authentication and role-based authorization with Appwrite to ensure that only post authors can modify or remove their own content. Integrated image uploads and rendering using Appwrite Storage and implemented SEO-friendly slug-based routing to support individual blog pages and improve content discoverability.",
     pcImage: P5,
     mobileImage: M5,
     tech: [
